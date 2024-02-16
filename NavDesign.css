@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+}
+.point-div {
+  height: 60px;
+  width: 320px;
+  border: 2px solid white;
+  position: absolute;
+  top: 0;
+  right: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+}
+#coin-img {
+  height: 80%;
+  /* width: 80%; */
+  object-fit: contain;
+}
+#point-value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
+  background: transparent;
+}
+.nav:active{
+  font-weight: bolder;
+  cursor: pointer;
+  color: greenyellow;
+}
+.nav:hover{
+  cursor: pointer;
+}

@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('bgImg.jpg');
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    /* border: 3px solid black; */
+    /* background-color: lightcoral; */
+    /* height: 5vh;  */
+    text-align: center;
+    line-height: 5rem;
+    color: rgb(234, 18, 194);
+}
+main{
+    height: 85%;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+.img-container{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    height: 200px;
+    width: 200px;
+    gap: 2rem;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.user:hover{
+    border: 8px solid black;
+    background-color: blue;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+}
+p{
+    text-align: center;
+    line-height: 5rem;
+}
+.inst-class{
+    display: grid;
+    place-items: center;
+    
+}
+#inst-board{
+    border: 2px solid blue;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.Gift{
+    position: absolute;
+    height: 30vh;
+    width: 30vh;
+    background-image: url('congrats.jpg');
+    background-size: cover;
+    mask-repeat: no-repeat;
+    backdrop-filter: blur(20px);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+    left: 40%;
+    color: black;
+    font-size: 50px;
+    box-shadow: 20px 20px 20px gray;
+    
+    visibility: hidden;
+}
+#coin{
+    height: 20%;
+    width: 20%;
+    object-fit: cover;
+}
+#button{
+    height: 40px;
+    width: 60px;
+    color: blue;
+    font-weight: bolder;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 5px;
+}
+#un-usable{
+    /* height: 300px; */
+    width: 500px;
+    border: 2px solid black;
+    color: wheat;
+    background-color: green;
+    font-size: 20px;
+    position:absolute;
+    top: 50px;
+    right: 0px;
+    visibility: hidden;
+}

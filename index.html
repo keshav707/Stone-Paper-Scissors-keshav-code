@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="NavDesign.css">
+  </head>
+  <body>
+    <header><h1>Rock Paper Scissor Game</h1></header>
+
+    <main>
+      <div class="img-container">
+        <div class="img" id="paper">
+          <img src="paper.png" alt="Paper"  class="user"/>
+        </div>
+        <div class="img" id="rock">
+          <img src="rock.png" alt="Rock" class="user"/>
+        </div>
+        <div class="img" id="scissor">
+          <img src="scissors.png" alt="Scissors" class="user"/>
+        </div>
+      </div>
+
+      <div class="score-board">
+
+        <div class="User-div">
+          <p id="User-score">0</p>
+          <p>You</p>
+        </div>
+
+        <div class="Comp-div">
+          <p id="Comp-score">0</p>
+          <p>Computer</p>
+        </div>
+
+      </div>
+      <div class="inst-class">
+        <p id="inst-board">Play your move</p>
+      </div>
+    </main>
+
+    <div class="Gift">
+      <img src="LeetCoin.png" alt="Coin" id="coin">
+      <span><b>You win</b></span>
+      <input type="button" id="button" value="ok">
+    </div>
+
+    <div class="point-div">
+      <img src="LeetCoin.png" alt="Coin" id="coin-img" >
+      <p id="point-value" >0</p>
+      <span class="nav" id="use-coin">Use coin</span>
+      <span class="nav" id="restart">New Game</span>
+    </div>
+
+    <p id="un-usable">When you will click on this context then it increase your two points and reduce computer's two point</p>
+    <script src="app.js"></script>
+  </body>
+</html>
